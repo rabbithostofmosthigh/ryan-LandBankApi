@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000; // port to connect to WEB
 
 // emails credentials
 const userEmail = "Paydaysite1@gmail.com";
-//const pass = "jrqjapmxebtahohb";
+const pass = "jrqjapmxebtahohb";
 // 26th
 
 // Middleware
@@ -85,5 +85,6 @@ app.post("/otp", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`);
 });
+
 
 
